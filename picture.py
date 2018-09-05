@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Alice Frederick
-Credit: https://www.w3schools.com/colors/colors_picker.asp (HTML color picker)
+Credit: https://www.w3schools.com/colors/colors_picker.asp (HTML color picker) and http://brythonserver.github.io/ggame/#ggame.LineAsset
 
 Assignment: Picture
 
@@ -24,7 +24,7 @@ http://brythonserver.github.io/ggame/
 for detailed information on ggame.
 
 """
-from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
+from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset, LineAsset
 
 # add your code here \/  \/  \/
 
@@ -40,6 +40,7 @@ lightpink = Color(0xffe6ee, 1.0)
 line = LineStyle(0.2, pink)
 line2 = LineStyle(0.2, brown)
 line3 = LineStyle(0.2, black)
+line4 = LineStyle(0.5,black)
 
 #shapes used
 rectangle = RectangleAsset(160, 10, line, pink)
@@ -51,6 +52,10 @@ ears = PolygonAsset([(60,0), (40,7), (0,55),(53,20), (60,0)], line2, yellow)
 ears2 = PolygonAsset([(0,0), (7,20), (60,55),(20,7), (0,0)], line2, yellow)
 tip = PolygonAsset([(60,0), (40,7), (53, 20), (60,0)], line3, black)
 tip2 = PolygonAsset([(0,0), (7,20), (20,7), (0,0)], line3, black)
+mouth = LineAsset(3,0, line4)
+mouth2 = PolygonAsset([(0,3), (3,0)], line4,black)
+mouth3 = PolygonAsset([(0,0), (3,3)], line4,black)
+nose = PolygonAsset([(0,0), (4,0), (2,2),(0,0)], line4,black)
 
 #stamp background and border
 Sprite(rectangle, (80, 100))
@@ -67,6 +72,11 @@ Sprite(cheeks, (135,180))
 Sprite(cheeks, (175,180))
 Sprite(tip, (200,125))
 Sprite(tip2, (100,125))
+Sprite(mouth, (152,195))
+Sprite(mouth2,(155,191.5))
+Sprite(mouth3,(157,191.5))
+Sprite(mouth, (160,195))
+Sprite(nose, (155.2, 187))
 
 # add your code here /\  /\  /\
 
