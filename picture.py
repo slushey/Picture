@@ -44,7 +44,8 @@ line2 = LineStyle(0.2, brown)
 rectangle = RectangleAsset(160, 10, line, pink)
 rectangle2 = RectangleAsset(10, 160, line, pink)
 rectangle3 = RectangleAsset(140, 140, line, lightpink)
-circle = CircleAsset(30, line2, yellow)
+face = CircleAsset(30, line2, yellow)
+cheeks = CircleAsset(8, line2, red)
 
 #stamp background and outline
 Sprite(rectangle, (80, 100))
@@ -54,7 +55,9 @@ Sprite(rectangle2, (230,100))
 Sprite(rectangle3, (90,110))
 
 #pikachu
-Sprite(circle, (130,150))
+Sprite(face, (130,150))
+Sprite(cheeks, (130,180))
+Sprite(cheeks, (160,180))
 
 # add your code here /\  /\  /\
 
