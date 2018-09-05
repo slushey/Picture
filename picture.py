@@ -59,7 +59,7 @@ Sprite(rectangle3, (90,110))
 Sprite(face, (130,150))
 Sprite(cheeks, (135,180))
 Sprite(cheeks, (175,180))
-
+Sprite(ears)
 # add your code here /\  /\  /\
 
 
