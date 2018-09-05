@@ -45,9 +45,9 @@ rectangle2 = RectangleAsset(10, 160, line, pink)
 rectangle3 = RectangleAsset(140, 140, line, lightpink)
 
 Sprite(rectangle, (80, 100))
-Sprite(rectangle2, (80,110))
-Sprite(rectangle, (80,270))
-Sprite(rectangle2, (230,110))
+Sprite(rectangle2, (80,100))
+Sprite(rectangle, (80,250))
+Sprite(rectangle2, (230,100))
 Sprite(rectangle3, (90,110))
 
 # add your code here /\  /\  /\
