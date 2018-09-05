@@ -38,7 +38,7 @@ lightpink = Color(0xffe6ee, 1.0)
 
 #lines used
 line = LineStyle(0.2, pink)
-line2 = LineStyle(0.2, yellow)
+line2 = LineStyle(0.2, black)
 
 #shapes used
 rectangle = RectangleAsset(160, 10, line, pink)
@@ -54,7 +54,7 @@ Sprite(rectangle2, (230,100))
 Sprite(rectangle3, (90,110))
 
 #pikachu
-Sprite(circle, (120,140))
+Sprite(circle, (155,175))
 
 # add your code here /\  /\  /\
 
