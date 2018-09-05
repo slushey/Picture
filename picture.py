@@ -55,7 +55,7 @@ tip2 = PolygonAsset([(0,0), (7,20), (20,7), (0,0)], line3, black)
 mouth = LineAsset(3,0, line4)
 mouth2 = PolygonAsset([(0,3), (3,0)], line4,black)
 mouth3 = PolygonAsset([(0,0), (3,3)], line4,black)
-nose = PolygonAsset([(0,0), (4,0), (2,2),(0,0)], line4,black)
+nose = PolygonAsset([(0,0), (3,0), (1.5,1.5),(0,0)], line4,black)
 
 #stamp background and border
 Sprite(rectangle, (80, 100))
@@ -76,7 +76,7 @@ Sprite(mouth, (152,195))
 Sprite(mouth2,(155,191.5))
 Sprite(mouth3,(157,191.5))
 Sprite(mouth, (160,195))
-Sprite(nose, (155.2, 187))
+Sprite(nose, (156, 186))
 
 # add your code here /\  /\  /\
 
