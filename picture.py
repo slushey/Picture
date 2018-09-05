@@ -44,7 +44,7 @@ line2 = LineStyle(0.2, yellow)
 rectangle = RectangleAsset(160, 10, line, pink)
 rectangle2 = RectangleAsset(10, 160, line, pink)
 rectangle3 = RectangleAsset(140, 140, line, lightpink)
-circle = CircleAsset(
+circle = CircleAsset(20, line2, yellow)
 
 #stamp background and outline
 Sprite(rectangle, (80, 100))
@@ -54,7 +54,7 @@ Sprite(rectangle2, (230,100))
 Sprite(rectangle3, (90,110))
 
 #pikachu
-
+Sprite(circle, (120,140))
 
 # add your code here /\  /\  /\
 
