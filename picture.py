@@ -38,7 +38,7 @@ lightpink = Color(0xffe6ee, 1.0)
 
 #lines used
 line = LineStyle(0.2, pink)
-line2 = LineStyle(0.2, black)
+line2 = LineStyle(0.2, brown)
 
 #shapes used
 rectangle = RectangleAsset(160, 10, line, pink)
