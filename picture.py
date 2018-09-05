@@ -34,6 +34,7 @@ red = Color(0xff1a1a, 1.0)
 black = Color(0x000000, 1.0)
 brown = Color(0x994d00, 1.0)
 pink = Color(0xffccdc, 1.0)
+lightpink = Color(0xffe6ee, 1.0)
 
 #line
 line = LineStyle(0.2, pink)
@@ -41,11 +42,13 @@ line = LineStyle(0.2, pink)
 #box
 rectangle = RectangleAsset(160, 10, line, pink)
 rectangle2 = RectangleAsset(10, 160, line, pink)
+rectangle3 = RectangleAsset(140, 60, line, lightpink)
 
 Sprite(rectangle, (80, 100))
 Sprite(rectangle2, (80,110))
 Sprite(rectangle, (80,270))
 Sprite(rectangle2, (230,110))
+Sprite(rectangle3, (90,110))
 
 # add your code here /\  /\  /\
 
