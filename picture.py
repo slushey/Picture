@@ -42,6 +42,8 @@ line = LineStyle(0.2, pink)
 line2 = LineStyle(0.2, brown)
 line3 = LineStyle(0.2, black)
 line4 = LineStyle(0.5,black)
+line5 = LineStyle(0.2,white)
+line6 = LineStyle(0.2,yellow)
 
 #shapes used
 rectangle = RectangleAsset(160, 10, line, pink)
@@ -59,13 +61,19 @@ mouth3 = PolygonAsset([(0,0), (3,3)], line4,black)
 nose = PolygonAsset([(0,0), (3,0), (1.5,1.5),(0,0)], line4,black)
 eye = CircleAsset(4,line4,black)
 shiny = CircleAsset(2.5,line2,white)
+body = EllipseAsset(30,40, line2,yellow)
+BOX = RectangleAsset(200,50,line5,white)
+arm = EllipseAsset(5,15,line2,yellow)
+box2 = RectangleAsset(10,10,line6,yellow)
 
-#stamp background and border
+#pikachu's body and the pink box
+Sprite(rectangle3, (90,110))
+Sprite(body, (130,190))
 Sprite(rectangle, (80, 100))
 Sprite(rectangle2, (80,100))
 Sprite(rectangle, (80,250))
 Sprite(rectangle2, (230,100))
-Sprite(rectangle3, (90,110))
+Sprite(BOX, (80,260))
 
 #pikachu
 Sprite(ears, (160,125))
@@ -84,6 +92,10 @@ Sprite(eye, (142,170))
 Sprite(eye,(171,170))
 Sprite(shiny,(143.5,170))
 Sprite(shiny,(171.5,170))
+Sprite(arm, (140,210))
+Sprite(arm, (170,210))
+Sprite(box2,(140,210))
+Sprite(box2,(170,210))
 
 # add your code here /\  /\  /\
 
