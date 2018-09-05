@@ -36,10 +36,13 @@ brown = Color(0x994d00, 1.0)
 pink = Color(0xffccdc, 1.0)
 
 #line
-line = LineStyle(0.2, black)
+line = LineStyle(0.2, pink)
 
 #box
-rectangle = RectangleAsset(50, 10, line, pink)
+rectangle = RectangleAsset(150, 10, line, pink)
+rectangle2 = RectangleAsset(10, 150, line, pink)
+
+Sprite(rectangle, (40, 50))
 
 # add your code here /\  /\  /\
 
