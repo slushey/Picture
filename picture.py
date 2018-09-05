@@ -46,8 +46,9 @@ rectangle2 = RectangleAsset(10, 160, line, pink)
 rectangle3 = RectangleAsset(140, 140, line, lightpink)
 face = CircleAsset(30, line2, yellow)
 cheeks = CircleAsset(5, line2, red)
+ears = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], line2, yellow)
 
-#stamp background and outline
+#stamp background and border
 Sprite(rectangle, (80, 100))
 Sprite(rectangle2, (80,100))
 Sprite(rectangle, (80,250))
