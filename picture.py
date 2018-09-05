@@ -44,7 +44,7 @@ rectangle2 = RectangleAsset(10, 160, line, pink)
 
 Sprite(rectangle, (80, 100))
 Sprite(rectangle2, (80,110))
-Sprite(rectangle, (0,0))
+Sprite(rectangle, (80,270))
 Sprite(rectangle2, (230,110))
 
 # add your code here /\  /\  /\
