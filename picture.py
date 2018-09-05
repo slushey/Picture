@@ -56,8 +56,8 @@ Sprite(rectangle3, (90,110))
 
 #pikachu
 Sprite(face, (130,150))
-Sprite(cheeks, (140,180))
-Sprite(cheeks, (170,180))
+Sprite(cheeks, (135,180))
+Sprite(cheeks, (175,180))
 
 # add your code here /\  /\  /\
 
