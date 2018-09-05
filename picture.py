@@ -36,19 +36,25 @@ brown = Color(0x994d00, 1.0)
 pink = Color(0xffccdc, 1.0)
 lightpink = Color(0xffe6ee, 1.0)
 
-#line
+#lines used
 line = LineStyle(0.2, pink)
+line2 = LineStyle(0.2, yellow)
 
-#box
+#shapes used
 rectangle = RectangleAsset(160, 10, line, pink)
 rectangle2 = RectangleAsset(10, 160, line, pink)
 rectangle3 = RectangleAsset(140, 140, line, lightpink)
+circle = CircleAsset(
 
+#stamp background and outline
 Sprite(rectangle, (80, 100))
 Sprite(rectangle2, (80,100))
 Sprite(rectangle, (80,250))
 Sprite(rectangle2, (230,100))
 Sprite(rectangle3, (90,110))
+
+#pikachu
+
 
 # add your code here /\  /\  /\
 
