@@ -35,6 +35,7 @@ black = Color(0x000000, 1.0)
 brown = Color(0x994d00, 1.0)
 pink = Color(0xffccdc, 1.0)
 lightpink = Color(0xffe6ee, 1.0)
+white = Color(0xffffff,1.0)
 
 #lines used
 line = LineStyle(0.2, pink)
@@ -56,6 +57,8 @@ mouth = LineAsset(3,0, line4)
 mouth2 = PolygonAsset([(0,3), (3,0)], line4,black)
 mouth3 = PolygonAsset([(0,0), (3,3)], line4,black)
 nose = PolygonAsset([(0,0), (3,0), (1.5,1.5),(0,0)], line4,black)
+eye = CircleAsset(4,line4,black)
+shiny = CircleAsset(2.5,line2,white)
 
 #stamp background and border
 Sprite(rectangle, (80, 100))
@@ -77,6 +80,10 @@ Sprite(mouth2,(155,191.5))
 Sprite(mouth3,(157,191.5))
 Sprite(mouth, (160,195))
 Sprite(nose, (156, 186))
+Sprite(eye, (142,170))
+Sprite(eye,(171,170))
+Sprite(shiny,(143.5,170))
+Sprite(shiny,(171.5,170))
 
 # add your code here /\  /\  /\
 
