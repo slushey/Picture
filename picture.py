@@ -42,7 +42,7 @@ line = LineStyle(0.2, pink)
 #box
 rectangle = RectangleAsset(160, 10, line, pink)
 rectangle2 = RectangleAsset(10, 160, line, pink)
-rectangle3 = RectangleAsset(140, 60, line, lightpink)
+rectangle3 = RectangleAsset(140, 140, line, lightpink)
 
 Sprite(rectangle, (80, 100))
 Sprite(rectangle2, (80,110))
