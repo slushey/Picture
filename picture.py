@@ -42,8 +42,10 @@ line = LineStyle(0.2, pink)
 rectangle = RectangleAsset(150, 10, line, pink)
 rectangle2 = RectangleAsset(10, 150, line, pink)
 
-Sprite(rectangle, (40, 50))
-Sprite(rectangle2, (40,50))
+Sprite(rectangle, (80, 100))
+Sprite(rectangle2, (80,100))
+Sprite(rectangle, (80,200))
+Sprite(rectangle2, (160,100))
 
 # add your code here /\  /\  /\
 
