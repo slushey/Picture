@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Alice Frederick
-Credit: 
+Credit: https://www.w3schools.com/colors/colors_picker.asp (HTML color picker)
 
 Assignment: Picture
 
@@ -39,13 +39,13 @@ pink = Color(0xffccdc, 1.0)
 line = LineStyle(0.2, pink)
 
 #box
-rectangle = RectangleAsset(150, 10, line, pink)
-rectangle2 = RectangleAsset(10, 150, line, pink)
+rectangle = RectangleAsset(160, 10, line, pink)
+rectangle2 = RectangleAsset(10, 160, line, pink)
 
 Sprite(rectangle, (80, 100))
-Sprite(rectangle2, (80,100))
-Sprite(rectangle, (80,200))
-Sprite(rectangle2, (180,100))
+Sprite(rectangle2, (80,110))
+Sprite(rectangle, (0,0))
+Sprite(rectangle2, (230,110))
 
 # add your code here /\  /\  /\
 
