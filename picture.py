@@ -92,8 +92,10 @@ Sprite(eye, (142,170))
 Sprite(eye,(171,170))
 Sprite(shiny,(143.5,170))
 Sprite(shiny,(171.5,170))
-Sprite(arm, (140,210))
-Sprite(arm, (170,210))
+s = Sprite(arm, (140,215))
+s.rotation = 0.3
+g = Sprite(arm, (170,210))
+g.rotation = -0.3
 Sprite(box2,(140,210))
 Sprite(box2,(170,210))
 
