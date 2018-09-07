@@ -44,6 +44,7 @@ line3 = LineStyle(0.2, black)
 line4 = LineStyle(0.5,black)
 line5 = LineStyle(0.2,white)
 line6 = LineStyle(0.2,yellow)
+line7 = LineStyle(0.5,brown)
 
 #shapes used
 rectangle = RectangleAsset(160, 10, line, pink)
@@ -63,7 +64,7 @@ eye = CircleAsset(4,line4,black)
 shiny = CircleAsset(2.5,line2,white)
 body = EllipseAsset(30,40, line2,yellow)
 BOX = RectangleAsset(200,50,line5,white)
-arm = EllipseAsset(5,15,line2,yellow)
+arm = EllipseAsset(5,15,line7,yellow)
 box2 = RectangleAsset(10,10,line6,yellow)
 
 #pikachu's body and the pink box
